@@ -28,7 +28,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		ClearDrawScreen();
 
 		DrawString(225,Game::kScreenHeight / 2,"gitのテスト  あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",GetColor(255,255,255));
-
+		DrawString(Game::kScreenWidth / 3, Game::kScreenHeight / 2 + 50, " 後、と。です。摩訶不思議ね、あら不思議ね。", GetColor(255, 255, 255));
+		DrawString(Game::kScreenWidth / 2, Game::kScreenHeight / 2 + 100, "あからん組み合わせ", GetColor(255, 255, 255));
 
 		//裏画面を表画面に切り替える
 		ScreenFlip();
